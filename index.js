@@ -1,3 +1,4 @@
+ /* eslint-disable */ 
 import { DateTime } from './modules/luxon.js';
 import AwesomeBooks from './modules/awsome-book.js';
 
