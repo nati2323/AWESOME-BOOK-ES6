@@ -1,0 +1,20 @@
+{
+  "name": "awesome-book-es6",
+  "version": "1.0.0",
+  "description": "- HTML\r     - CSS\r     - JAVASCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nati2323/AWESOME-BOOK-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nati2323/AWESOME-BOOK-ES6/issues"
+  },
+  "homepage": "https://github.com/nati2323/AWESOME-BOOK-ES6#readme"
+}

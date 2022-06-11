@@ -1,0 +1,163 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  margin-top: 100px;
+}
+
+main button {
+  background: rgb(128, 128, 122);
+  box-shadow: none;
+  border: 1px solid rgb(128, 128, 122);
+  color: white;
+  padding: 5px 10px;
+  width: 100px;
+  border-radius: 2px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 10px 20px;
+  border: 2px solid #000;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.date {
+  margin: 5px 20px;
+  text-align: right;
+}
+
+header nav ul button {
+  background: transparent;
+  border: none;
+  border-right: 1px solid #000;
+  padding: 5px 20px;
+}
+
+header nav ul li:last-child button {
+  border-right: none;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #666;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 300px;
+}
+
+form div {
+  margin-bottom: 8px;
+}
+
+.books {
+  margin: 10px;
+  border: 2px solid rgb(72, 71, 71);
+  background-color: rgb(246, 246, 246);
+}
+
+.books ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.books ul li {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.books ul li.draf {
+  background-color: rgb(163, 163, 163);
+}
+
+.empty {
+  text-align: center;
+  color: rgb(203, 203, 203);
+  padding: 30px;
+}
+
+#listBook {
+  color: blue;
+}
+
+#bookShelf {
+  width: 100%;
+}
+
+#add {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+#bookShelf .title,
+#add .title,
+#contact .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact ul li {
+  margin-bottom: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer div {
+  margin: 10px 20px;
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+@media (min-width: 992px) {
+  #bookShelf {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #contact {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
