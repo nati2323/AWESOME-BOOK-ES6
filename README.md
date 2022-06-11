@@ -8,11 +8,12 @@
     - HTML
     - CSS
     - JAVASCRIPT
+    - ES6
 
 
 ## Getting Started  
 
-  This project aims at building a basic website that allows users to add/remove books from a list 
+  This project aims at building a basic website with ES6git  that allows users to add/remove books from a list 
 
   Please follow the steps below for getting started and editing the files from your local machine.
 
